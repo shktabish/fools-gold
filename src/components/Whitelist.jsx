@@ -15,7 +15,7 @@ const Whitelist = () => {
                     alt="background effect" 
                     className="absolute inset-0 w-full h-full object-cover object-center opacity-5"
                 />
-                <div className="font-helvetica italic text-xl lg:text-[1.75rem] font-semibold w-[95%]" >
+                <div className="font-helvetica italic text-xl lg:text-[1.75rem] font-semibold w-[95%] relative z-50" >
                     Where laughter, fun, and nice little earners meet the wild ride of <span className="text-[#E12F2A] uppercase" >cryptocurrency!</span>
                 </div>
             </div>
@@ -27,10 +27,10 @@ const Whitelist = () => {
                     alt="background effect" 
                     className="absolute inset-0 w-full h-full object-cover object-center opacity-15"
                 />
-                <div className="uppercase font-mistral text-[#FFD677] text-center text-4xl md:text-5xl lg:text-[4rem] w-[min(600px,95%)]" >
+                <div className="uppercase font-mistral text-[#FFD677] text-center text-4xl md:text-5xl lg:text-[4rem] w-[min(600px,95%)] relative z-50" >
                     This time next year we'll be millionaires
                 </div>
-                <div className="text-white text-center font-helvetica italic w-[95%] max-sm:text-xs" >
+                <div className="text-white text-center font-helvetica italic w-[95%] max-sm:text-xs relative z-50" >
                     "I'll fetch the suitcase from the van 'Cause if you want the best ones But you don't ask questions Then brother, I'm your man"  
                 </div>
             </div>
