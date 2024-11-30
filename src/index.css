@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Mistral';
+  src: url('/src/assets/MISTRAL.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/src/assets/Helvetica.ttf') format('truetype');
+}
