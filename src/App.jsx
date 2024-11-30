@@ -1,6 +1,6 @@
 const App = () => {
   return (
-	<div>App</div>
+	<div className="bg-[#fff6e4] p-2 md:p-4" >App</div>
   )
 }
 
