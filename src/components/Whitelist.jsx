@@ -45,9 +45,14 @@ const Whitelist = () => {
                     alt="coin image" 
                     className="absolute -bottom-[10%] left-[30%]"
                 />
-                <div className="max-sm:w-4/5 w-2/3 md:w-1/2 p-4 text-lg md:text-xl xl:text-3xl font-semibold italic font-helvetica text-[#C5232A] relative z-50" >
+                <div className="max-sm:w-4/5 w-2/3 md:w-1/2 px-4 py-2 text-lg md:text-xl xl:text-3xl font-semibold italic font-helvetica text-[#C5232A] relative z-50" >
                     British sitcom, this meme coin is not your mediocre, crazy, uncapped supply. Solid tokenomics links directly to NFTs from the show, which give owners different rewards based on the character.
                 </div>
+                <img 
+                    src="./whitelist-button.png" 
+                    alt="whitelist button" 
+                    className="mx-4 my-2 max-md:w-52 md:h-20 relative z-50"
+                />
             </div>
         </div>
     </div>
