@@ -1,44 +1,49 @@
-import { createWeb3Modal } from '@web3modal/wagmi/react'
-import { defaultWagmiConfig } from '@web3modal/wagmi/react/config'
-
+import { createAppKit } from '@reown/appkit/react'
 import { WagmiProvider } from 'wagmi'
-import { arbitrum, mainnet } from 'wagmi/chains'
+import { arbitrum, mainnet } from '@reown/appkit/networks'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
 
 // 0. Setup queryClient
 const queryClient = new QueryClient()
 
-// 1. Your WalletConnect Cloud project ID
-const projectId = 'be942a7b8d1c9e675dc2710ecbafdeb2'
+// 1. Get projectId from https://cloud.reown.com
+const projectId = import.meta.env.VITE_WALLET_PROJECT_ID
 
-// 2. Create wagmiConfig
+// 2. Create a metadata object - optional
 const metadata = {
-  name: 'Wallet Testing',
+  name: 'fools-gold',
   description: 'AppKit Example',
-  url: 'https://web3modal.com', // origin must match your domain & subdomain
-  icons: ['https://avatars.githubusercontent.com/u/37784886']
+  url: 'https://reown.com/appkit', // origin must match your domain & subdomain
+  icons: ['https://assets.reown.com/reown-profile-pic.png']
 }
 
-const chains = [mainnet, arbitrum] 
-const config = defaultWagmiConfig({
-  chains,
+// 3. Set the networks
+const networks = [mainnet, arbitrum]
+
+// 4. Create Wagmi Adapter
+const wagmiAdapter = new WagmiAdapter({
+  networks,
+  projectId,
+  ssr: true
+});
+
+// 5. Create modal
+createAppKit({
+  adapters: [wagmiAdapter],
+  networks,
   projectId,
   metadata,
-// Optional - Override createConfig parameters
-})
-
-// 3. Create modal
-createWeb3Modal({
-  wagmiConfig: config,
-  projectId,
-  enableAnalytics: true, // Optional - defaults to your Cloud configuration
-  enableOnramp: true // Optional - false as default
+  features: {
+    analytics: true // Optional - defaults to your Cloud configuration
+  }
 })
 
 export function Web3ModalProvider({ children }) {
   return (
-    <WagmiProvider config={config}>
+    <WagmiProvider config={wagmiAdapter.wagmiConfig}>
       <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
     </WagmiProvider>
   )
 }
+    
