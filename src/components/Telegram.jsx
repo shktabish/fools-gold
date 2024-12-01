@@ -1,13 +1,16 @@
 export default function Telegram() {
 	return (
-		<div className="min-h-[80dvh] bg-[#E03938] p-2 md:p-4 lg:p-6 rounded-xl grid grid-cols-1 md:grid-cols-2 md:grid-rows-[35%_60%] place-content-between gap-4">
-			<div style={{ backgroundImage: `url("./fullstar.png")` }} className="md:col-span-2 bg-[#FFD677] grid grid-cols-1 md:grid-cols-[50%_10%_40%] xl:grid-cols-[60%_10%_30%] p-4 lg:p-6 rounded-lg md:rounded-xl h-fit relative bg-no-repeat bg-contain bg-left ">
-				<p className="font-mistral uppercase md:text-end text-center md:col-span-3 text-sm md:text-lg lg:text-3xl text-[#D73939] w-full col-span-1">
+		<div className="min-h-[85dvh] bg-[#E03938] p-2 md:p-4 lg:p-6 rounded-xl grid grid-cols-1 md:grid-cols-2 md:grid-rows-[30%_60%] place-content-between md:gap-6 gap-2">
+			<div
+				className="md:col-span-2 bg-[#FFD677] grid grid-cols-1 md:grid-cols-[50%_10%_40%] xl:grid-cols-[60%_10%_30%] p-4 lg:p-6 rounded-lg md:rounded-xl h-fit relative bg-no-repeat bg-contain bg-left"
+				style={{ backgroundImage: "url(/fullstar.png)" }}
+			>
+				<p className="font-mistral uppercase md:text-end text-center md:col-span-3 text-lg lg:text-3xl text-[#D73939] w-full col-span-1">
 					Don&apos;t be a plonker you know it makes sense this time
 					next year
 				</p>
 				<div
-					className="text-4xl md:text-8xl xl:text-9xl font-mistral uppercase text-[#E03938] text-center md:text-start"
+					className="text-6xl md:text-8xl xl:text-9xl font-mistral uppercase text-[#E03938] text-center md:text-start"
 					style={{ textShadow: "white 4px 4px 1px" }}
 				>
 					Lovely jubbly
@@ -50,7 +53,7 @@ export default function Telegram() {
 				<img
 					src="./telegrampeople.png"
 					alt="telegram people"
-					className="absolute inset-0 object-cover object-top w-full h-full"
+					className="absolute inset-0 object-cover w-full h-full"
 				/>
 			</div>
 		</div>
