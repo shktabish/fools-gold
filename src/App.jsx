@@ -12,7 +12,7 @@ const App = () => {
 			<Telegram />
 			<Signup />
 			<Footer />
-	</div>
+		</div>
 	);
 };
 

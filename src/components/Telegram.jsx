@@ -46,7 +46,13 @@ export default function Telegram() {
 					shady shenanigans.
 				</p>
 			</div>
-			<div className="h-[250px] md:h-full bg-white md:rounded-xl rounded-lg bg-[url(./telegrampeople.png)] bg-no-repeat bg-contain bg-bottom"></div>
+			<div className="relative h-[250px] md:h-full bg-white md:rounded-xl rounded-lg overflow-hidden">
+				<img
+					src="./telegrampeople.png"
+					alt="telegram people"
+					className="absolute inset-0 object-cover w-full h-full"
+				/>
+			</div>
 		</div>
 	);
 }
