@@ -28,7 +28,7 @@ const Footer = () => {
 	const data = ["cookies", "privacy policy", "terms & conditions"];
 
 	return (
-		<div className="h-max md:h-72 p-4 md:p-10 bg-[#E45048] flex flex-col md:flex-row justify-between items-center max-md:gap-10 rounded-xl">
+		<div className="h-max md:h-72 p-4 md:p-10 bg-[#E45048] flex flex-col md:flex-row justify-between items-center max-md:gap-10 rounded-xl overflow-x-hidden">
 			<div className="h-full">
 				<img
 					src="./logo.png"
@@ -37,11 +37,20 @@ const Footer = () => {
 				/>
 			</div>
 			<div className="flex flex-col justify-around items-center md:items-end max-md:gap-6 h-full">
-				<div className="block">
+				{/* <div className="block">
 					<img
 						src="./connect-button.png"
 						className="max-md:w-4/5 max-md:mx-auto"
 					/>
+				</div> */}
+				<div className="relative">
+					<img
+						src="./connect-button.png"
+						className="max-md:w-4/5 max-md:mx-auto"
+					/>
+					<div className="absolute inset-0 z-10 cursor-pointer scale-x-[2.20] ml-28 mt-2 opacity-0">
+						<w3m-button />
+					</div>
 				</div>
 				<div className="flex justify-center items-center gap-x-12">
 					{links.map((link, index) => (
