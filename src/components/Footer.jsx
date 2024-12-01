@@ -28,7 +28,7 @@ const Footer = () => {
 	const data = ["cookies", "privacy policy", "terms & conditions"];
 
 	return (
-		<div className="h-max md:h-72 p-4 md:p-10 bg-[#E45048] flex flex-col md:flex-row justify-between items-center max-md:gap-10 rounded-xl overflow-x-hidden">
+		<div className="h-max md:h-72 p-4 md:p-10 bg-[#E45048] flex flex-col md:flex-row justify-between items-center max-md:gap-10 rounded-xl overflow-x-hidden text-white">
 			<div className="h-full">
 				<img
 					src="./logo.png"
