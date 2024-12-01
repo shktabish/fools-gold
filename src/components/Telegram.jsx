@@ -37,11 +37,13 @@ export default function Telegram() {
 					about seizing opportunities to generate Cushty ATHs!
 				</p>
 				<div className="z-20 relative w-full flex justify-center md:justify-start">
-					<img
-						src="./telegram.png"
-						alt="telegram action button"
-						className="max-w-[200px] md:max-w-full"
-					/>
+					<a href="https://t.me/+uVp96dilrh44Y2E1">
+						<img
+							src="./telegram.png"
+							alt="telegram action button"
+							className="max-w-[200px] md:max-w-full"
+						/>
+					</a>
 				</div>
 				<p className="font-helvetica uppercase text-[#D73939] text-xs md:text-sm lg:text-md text-center md:text-start font-bold tracking-tighter z-20 relative">
 					Not your normal meme this is the real deal coded by industry
