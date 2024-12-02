@@ -30,8 +30,8 @@ const Whitelist = () => {
 						alt="background effect"
 						className="absolute inset-0 w-full h-full object-cover object-center opacity-15"
 					/>
-					<div className="uppercase font-mistral text-[#FFD677] text-center text-4xl md:text-5xl lg:text-[4rem] w-[min(600px,95%)] relative z-50">
-						This time next year we&apos;ll be millionaires
+					<div className="uppercase font-mistral text-[#FFD677] text-center text-4xl md:text-5xl lg:text-[4rem] w-[min(750px,95%)] relative z-50">
+						Start collecting points for the first NFT lucky draw
 					</div>
 					<div className="text-white text-center font-helvetica italic w-[95%] max-sm:text-xs relative z-50">
 						&quot;I&apos;ll fetch the suitcase from the van

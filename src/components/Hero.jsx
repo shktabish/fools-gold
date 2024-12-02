@@ -60,7 +60,7 @@ const HeroSection = () => {
 							The First Crypto Memeworld
 						</h1>
 						<h2 className="font-helvetica italic text-sm md:text-2xl lg:text-3xl">
-							where the collection of ecosystem points link directly to NFTS
+							where ecosystem points link directly to the NFTs
 						</h2>
 					</div>
 				</div>
