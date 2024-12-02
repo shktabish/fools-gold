@@ -15,12 +15,11 @@ const Whitelist = () => {
 						alt="background effect"
 						className="absolute inset-0 w-full h-full object-cover object-center opacity-5"
 					/>
-					<div className="font-helvetica italic text-xl lg:text-[1.75rem] font-semibold w-[95%] relative z-50">
-						Where laughter, fun, and nice little earners meet the
-						wild ride of{" "}
-						<span className="text-[#E12F2A] uppercase">
-							cryptocurrency!
-						</span>
+					<div className="font-helvetica italic text-xl lg:text-[1.75rem] font-semibold w-[95%] relative z-50 text-center">
+						<div className="text-[#E12F2A] uppercase mb-2">
+							No income tax, no VAT, No money back, and no guarantee
+						</div>
+						{" "}Black or white, rich or poor, We'll cut prices at a straw
 					</div>
 				</div>
 			</div>
@@ -52,10 +51,7 @@ const Whitelist = () => {
 						className="absolute -bottom-[10%] left-[30%]"
 					/>
 					<div className="max-sm:w-4/5 w-2/3 md:w-1/2 px-4 py-2 text-lg md:text-xl xl:text-3xl font-semibold italic font-helvetica text-[#C5232A] relative z-50">
-						British sitcom, this meme coin is not your mediocre,
-						crazy, uncapped supply. Solid tokenomics links directly
-						to NFTs from the show, which give owners different
-						rewards based on the character.
+						Cause where it all comes from is a mystery. It's like the changing of the seasons. And the tides of the sea. But here's the one that's driving me berserk. Start collecting points for the first NFT lucky draw
 					</div>
 					<img
 						src="./whitelist-button.png"

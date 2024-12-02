@@ -32,14 +32,11 @@ const Signup = () => {
 				</div>
 				<div className="rounded-xl text-[#C5232A] flex flex-col justify-around ">
 					<div>
-						<div className="text-2xl lg:text-4xl xl:text-5xl font-mistral font-medium uppercase">
-							Fools Gold is all about being a true hustler.
+						<div className="text-2xl lg:text-4xl xl:text-[2.5rem] font-mistral font-medium uppercase">
+							Winners will increase their points, credibility score and win prizes
 						</div>
 						<div className="font-helvetica italic text-base xl:text-xl font-semibold">
-							Regular competitions will happen to see who can
-							shift the most gear that came off the back of a
-							lorry. Winners will increase their credibility score
-							increase their NFTS value and win prizes
+							Regular competitions will happen to see who can shift the most gear that came off the back of a lorry. Winners will increase their credibility score increase their NFTS value and win prize
 						</div>
 					</div>
 					<div>
