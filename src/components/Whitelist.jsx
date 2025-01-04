@@ -4,7 +4,7 @@ const Whitelist = () => {
 			<div className="max-sm:h-[75vh] h-[50vh] md:h-[95vh] grid max-sm:grid-rows-2 grid-rows-1 md:grid-rows-2 max-sm:grid-cols-1 grid-cols-2 md:grid-cols-1 gap-4">
 				<div className="bg-[#FFD677] rounded-xl p-2">
 					<img
-						src="./people.png"
+						src="./people2.jpg"
 						alt="people image"
 						className="object-cover object-center rounded-xl h-full w-full"
 					/>

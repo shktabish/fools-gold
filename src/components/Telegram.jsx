@@ -53,7 +53,7 @@ export default function Telegram() {
 			</div>
 			<div className="relative h-[250px] md:h-full bg-white md:rounded-xl rounded-lg overflow-hidden">
 				<img
-					src="./telegrampeople.png"
+					src="./telegrampeople2.jpg"
 					alt="telegram people"
 					className="absolute inset-0 object-cover w-full h-full"
 				/>
