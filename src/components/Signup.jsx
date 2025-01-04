@@ -24,19 +24,29 @@ const Signup = () => {
 			</div>
 			<div className="max-sm:h-max h-[95vh] md:col-span-3 grid grid-rows-2 gap-4">
 				<div className="rounded-xl bg-[#FFD677] p-2">
-					<img
-						src="./sign-up.png"
-						alt="people image"
-						className="object-cover object-top rounded-xl h-full w-full"
-					/>
+					<div className="bg-[#2497c5] pt-28 sm:pt-0 rounded-xl h-full w-full overflow-hidden">
+						<img
+							src="./sign-up-nobg.png"
+							alt="people image"
+							className="rounded-xl object-bottom sm:object-center mx-auto h-full w-auto sm:h-[130%]"
+							style={{
+								filter: "drop-shadow(14px 0px 4px rgba(0, 0, 0, 0.75))",
+							}}
+						/>
+					</div>
 				</div>
+
 				<div className="rounded-xl text-[#C5232A] flex flex-col justify-around ">
 					<div>
 						<div className="text-2xl lg:text-4xl xl:text-[2.5rem] font-mistral font-medium uppercase">
-							Winners will increase their points, credibility score and win prizes
+							Winners will increase their points, credibility
+							score and win prizes
 						</div>
 						<div className="font-helvetica italic text-base xl:text-xl font-semibold">
-							Regular competitions will happen to see who can shift the most gear that came off the back of a lorry. Winners will increase their credibility score increase their NFTS value and win prize
+							Regular competitions will happen to see who can
+							shift the most gear that came off the back of a
+							lorry. Winners will increase their credibility score
+							increase their NFTS value and win prize
 						</div>
 					</div>
 					<div>
