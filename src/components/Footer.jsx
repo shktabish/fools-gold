@@ -2,26 +2,17 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
+  FaTelegram,
   FaXTwitter,
 } from "react-icons/fa6";
 
 const Footer = () => {
   const links = [
-    { name: "X", icon: FaXTwitter, link: "https://twitter.com/" },
+    { name: "X", icon: FaXTwitter, link: "https://x.com/FoolsGoldWorld" },
     {
-      name: "Facebook",
-      icon: FaFacebookF,
-      link: "https://www.facebook.com/",
-    },
-    {
-      name: "LinkedIn",
-      icon: FaLinkedinIn,
-      link: "https://www.linkedin.com/",
-    },
-    {
-      name: "Instagram",
-      icon: FaInstagram,
-      link: "https://www.instagram.com/",
+      name: "Telegram",
+      icon: FaTelegram,
+      link: "https://t.me/+iJTex2WpXKRhMjM1",
     },
   ];
 
@@ -63,7 +54,7 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <div className="flex text-xs pt-2 pl-12 text-end justify-center items-center gap-x-6 uppercase max-w-lg">
+        <div className="flex text-xs pt-2 md:pl-12 md:text-end text-center justify-center items-center gap-x-6 uppercase max-w-lg">
           Fools Gold is a memeverse with no intrinsic value or expectation of
           financial return. There is no formal team or roadmap. the $PLONKERS
           coin and all future NFTs are for entertainment purposes only.

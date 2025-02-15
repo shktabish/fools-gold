@@ -3,7 +3,6 @@ import Hero from "./components/Hero";
 import Whitelist from "./components/Whitelist";
 import Telegram from "./components/Telegram";
 import Roadmap from "./components/Roadmap";
-import Token from "./components/Token";
 import Signup from "./components/Signup";
 import Footer from "./components/Footer";
 
@@ -15,7 +14,6 @@ const App = () => {
       <Whitelist />
       <Telegram />
       <Roadmap />
-      <Token />
       <Signup />
       <Footer />
     </div>

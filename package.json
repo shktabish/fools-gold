@@ -14,6 +14,7 @@
     "@reown/appkit-adapter-wagmi": "^1.5.3",
     "@tanstack/react-query": "^5.62.0",
     "@web3modal/wagmi": "^4.2.3",
+    "framer-motion": "^12.4.3",
     "lucide-react": "^0.461.0",
     "nes.css": "^2.2.1",
     "react": "^18.3.1",
