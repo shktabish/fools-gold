@@ -64,7 +64,7 @@ const Whitelist = () => {
               variants={fadeInUp}
               className="text-[#E12F2A] uppercase mb-2"
             >
-              No income tax, no VAT, No money back, and no guarantee
+              No income tax, no V.A.T, no money back, no guarantee
             </motion.div>{" "}
             <motion.div variants={fadeInUp}>
               Black or white, rich or poor, We'll cut prices at a straw
